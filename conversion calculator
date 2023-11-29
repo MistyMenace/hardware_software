@@ -1,0 +1,24 @@
+(1) Binary to decimal
+(2) Binary to hexadecimal
+(3) Decimal to binary
+(4) Decimal to hexadecimal
+(5) Hexadecimal to decimal
+(6) Hexadecimal to binary
+(7) Octal to decimal
+(8) Decimal to octal
+
+from os import system, name
+
+
+def clear_screen () :
+     if name == 'nt' :
+          _ = system ('cls')
+      else:
+           _ = system ('clear')
+
+
+def main () :
+      clear_screen ()
+
+      if_name_="__main_":
+          main()
