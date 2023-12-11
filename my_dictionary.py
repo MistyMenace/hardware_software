@@ -1,4 +1,4 @@
-def display_menu(num) :
+def display_menuffgff :
      menu_dict = {
           '1': 'Apples',
           '2': 'Pears',
