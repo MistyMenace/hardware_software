@@ -1,6 +1,6 @@
 # Written By: Prof.  Nedd (Guttman CC)
-# Modified By:  (Your Name Here)
-# File Name: conversion_calculator.py
+# Modified By:  (Jacob Garcia)
+# File Name:    Final_Project.py
 # Description: This file converts numbers
 # from binary to decimal and decimal to Binary
 # The code verifies that the user has given
@@ -61,7 +61,8 @@ def check_user_selection(items, dict):
      return items
 ##########################################################
 def execute_selection(menu_selection):
-# place an explination of the function
+# After the input is put in the menu selection will be
+# executed back to the lens input
 # if menu selection is True then the user has gives us a blank
 # entry. We want to ignore blank entries and continue
     if menu_selection is True:
@@ -82,7 +83,8 @@ def clear_screen():
 
 ############################################################
 def binary_to_decimal():
-# Place an explination of the function here
+# The function is determined by the binary number the user
+# puts in and will convert into a decimal number
     convert_from = 2
     valid_numbers = list(get_digits())[0:convert_from]
     print("Binary Digits:", valid_numbers)
@@ -92,7 +94,8 @@ def binary_to_decimal():
     return result, "Decimal number"
 ########################################################
 def convert_to_decimal(ans, conversion_number):
-# Place an explination of the function
+# For each answer the user puts in the number will convert
+# into a decimal number
 # Exit the program if user wants to exit. Let False continue to
 # pass through functions. Otherwise perform task
     if ans is False:
@@ -112,7 +115,8 @@ def convert_to_decimal(ans, conversion_number):
             return result
 #########################################################
 def decimal_to_binary():
-#Place an explination of the function
+# The function will convert from binary to decimal depening on
+# what number the user types and will result to a binary number
     convert_from = 10
     convert_to = 2
     valid_numbers = list(get_digits())[0:convert_from]
